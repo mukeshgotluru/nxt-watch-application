@@ -1,0 +1,86 @@
+.home {
+  display: flex;
+}
+
+.home-container {
+  width: 83%;
+  margin-left: 10px;
+  margin-top: 10px;
+  border: 1px solid #000;
+  padding: 15px;
+}
+.search-container {
+  border: 1px solid #000;
+  border-right: 1px solid #000;
+  background: none;
+  padding: 1rem;
+  color: #f5f5f5;
+  height: 40px;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  transition: border 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.search {
+  margin-top: 4px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.search-icon {
+  font-size: 35px;
+  padding: 5px;
+}
+
+.input {
+  height: 38px;
+  width: 350px;
+  border: 1px;
+  outline: none;
+  border-right: 1px solid #000;
+}
+
+.videos-container {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.video-card {
+  width: 250px;
+  height: 150px;
+  border: 1px solid #000;
+  padding: 15px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.no-videos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+}
+@media (max-width: 767px) {
+  justify-content: center;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.failure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

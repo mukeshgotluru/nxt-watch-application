@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+}
+.not-found {
+  width: 40%;
+  height: 90%;
+  padding: 25px;
+}
+.heading {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.5;
+}
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.description {
+  color: #000;
+  font-family: Roboto;
+  line-height: 1.5;
+}
+
+.bg-light {
+  background-color: #ffffffff;
+}
+.bg-dark {
+  background-color: #000000;
+}
+
+.text-light {
+  color: #000000;
+}
+.text-dark {
+  color: #ffffffff;
+}
